@@ -1,0 +1,17 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0 0;
+    pading: 5px 5px 5px 5px;
+}
+
+u1 { margin-top: 0px;
+margin-bottom: 0px}
+
+article, aside, details, d1, figcaption, figure, footer, header, main, nav, section {
+    display: block;
+}
+

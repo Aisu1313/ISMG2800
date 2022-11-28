@@ -1,0 +1,246 @@
+      body {
+       font-family:Arial, Helvetica, san-serif;
+       font-size: 16px;
+       margin:0 0 0 0 ;
+       padding:0 0 0 0 ;
+
+       }
+
+       h1 {
+      font-family: "Century Gothic", Arial, Helvetica, sans-serif;
+      color:white;
+      letter-spacing:-1px;
+      margin-bottom: 0px;
+
+       }
+       
+       h2 {
+       color:#2E4372;
+
+       }
+
+       h4 { font-style:italic;
+       margin-top: 0px;
+
+      }
+
+      h5 { font-style:oblique;
+        font-size: 20px;
+      }
+
+       
+       main {
+        background-color:lightslategray;
+
+       }
+       
+       header {
+        background-color:#4F628E;
+
+       }
+       
+       main, header, footer, nav {
+        padding: 5px 5px 5px 5px;
+
+       }
+
+       section {
+       padding-left:5px;
+
+       }
+
+       .center {
+       text-align:center;
+
+       }
+
+        footer {
+        background-color: #684F90;
+        color:white;
+        font-size:x-small;
+        text-align: center;
+        
+        }
+         /* color/font styles */
+         nav { background-color: #101010 ;  }
+         nav a {color: #478D76;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 2px 10px 2px 10px;
+}
+
+nav a:hover { color: #684F90;
+text-decoration: underline;}
+
+ul {
+      list-style-image: url('white1.gif');
+}
+
+      header {
+            background: url('logo1.png') #478D76 no-repeat;
+            background-size: 50px 50px;
+            background-position: 15px 15px;
+            padding-left: 80px;
+            height: 70px;
+      }
+
+      aside#contact {
+            padding: 10px;
+            font-size: small;
+            border: thin black solid;
+            width: 100%;
+            float: right;
+            border-radius: 20px;
+            box-shadow: 2px 2px 5px #333;
+            background-color: #478D76 ; /*IE & Older Browsers */
+            background: linear-gradient (0deg, #4F628E, #478D76, #FFFDE1, #478D76, #4F628E);
+      }
+
+      section {
+            background: url('merlin1.jpg') white no-repeat;
+            background-size: cover;
+            background-position: top center;
+            height: 550px;
+            box-sizing: border-box;
+            padding: 300px 0 0 60px;
+
+            
+        }
+
+        h2 {
+            color: #478D76;
+            text-shadow: 2px 2px 30px black;
+        }
+
+        label {
+
+width: 96px;
+
+display:inline-block;
+
+
+        }
+
+      
+
+        
+
+      
+        
+
+      /*Events Grid*/
+        
+        .wrapper {
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            grid-template-rows: repeat(8, 1fr);
+            padding: 5em;
+            grid-gap: 2.5em;
+            background-color: black;
+            position: relative;
+            justify-content: center;
+            
+            
+            
+            height: 600px;
+            max-width: 100%;
+          }
+          
+          
+
+          .btn {
+            background-color:#684F90 ;
+            color: black;
+            text-align: center;
+            font-size: 15px;
+         }
+          
+        
+        
+         .text-block {
+          position: relative;
+          block-size: 20%;
+          
+          bottom: 90px;
+          right: 0px;
+          background:rgba(0, 0, 0, 0.5);
+          color: white;
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+         
+
+
+          .commander {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            color: #478D76;
+            text-align: center;
+          
+            
+            
+            }
+          
+         
+
+          .modern {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            color: #478D76;
+            text-align: center;
+          }
+
+          .legacy {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 2;
+            color: #478D76;
+            text-align: center;
+          }
+
+          .vintage {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            color: #478D76;
+            text-align: center;
+          }
+
+          .draft {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            color: #478D76;
+            text-align: center;
+          }
+
+          .sealed {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 3;
+            color: #478D76;
+            text-align: center;
+          }
+
+          .side {
+
+            grid-area: sidebar;
+            
+            
+          }
+
+
+          
+        
+          
+

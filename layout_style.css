@@ -1,0 +1,28 @@
+header { grid-area: header; }
+nav { grid-area: nav;}
+nav ul {float: right}
+nav ul li {display: inline-block;}
+
+main {
+    grid-area: main;
+    width: 90%;
+    max-width: 1250px;
+    margin:auto;
+}
+
+section { grid-area: section;}
+
+footer { grid-area: footer; }
+
+#layout {
+    display: grid;
+    grid-gap: 0px;
+    grid-template-areas:
+"nav nav nav"
+"header header header"
+"section section section"
+"main main sidebar"
+
+"footer footer footer"
+;
+}

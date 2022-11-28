@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <title>Contact us at Magic The Gathering Spellslingers Club</title>
+        <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="base.css" />
+        <link rel="stylesheet" type="text/css" href="style1.css" />
+        <link rel="stylesheet" type="text/css" href="layout_style.css" />
+        
+   </head>
+   <body>
+    <div id="layout">
+      <header>
+         <h1>Magic the Gathering Spellslingers</h1>
+         <h4>Casting spells on the weekend</h4>
+      </header>
+      <nav>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="events.html">Events</a></li>
+          </ul>
+      </nav>
+      <section><h2>Contact Us</h2></section>
+      <main>
+         <aside id="contact">
+            <form action="mailto:eric.musacchio@ucdenver.edu" method="POST" id="rating" name="frmRating">
+               <h4>*required information</h4>
+           
+               <input type="hidden" name="txtH" value="Contact Us Form" />
+           
+               <div class="formRow">
+                   <label for="tn">Your Name*:</label>
+                   <input type="text" name="txtName" placeholder="Nicol Bolas" id="tn" size="30" required/>
+               </div>
+           
+               <div class="formRow">
+                   <label for="te">Email Address*:</label>
+                   <input type="email" name="txtEmail" placeholder="example@email.com" id="te" size="30" required/>
+               </div>
+
+               <div class="formRow">
+                  <label for="pn">Phone*:</label>
+                  <input type="tel" name="Phone" placeholder="nnn-nnn-nnnn" id="pn" maxlengh="12"  required />
+              </div>
+           
+               <div class="formRow">
+                   <label for="ld">Play Style:</label>
+                   <select name="lstDesc" id="ld">
+                       <option>Timmy</option>
+                       <option>Vorthos</option>
+                       <option selected="selected">Johnny</option>
+                       <option>Spike</option>
+                   </select>
+               </div>
+           
+               <fieldset>
+                   <legend>Favorite Deck Type </legend>
+                   <input type="radio" name="optRate" value="1" id="orate1" checked="checked" />
+                   <label for="orate1">Aggro</label><br />
+                   <input type="radio" name="optRate" value="2" id="orate2" />
+                   <label for="orate2">Mid-Range</label><br />
+                   <input type="radio" name="optRate" value="3" id="orate3" />
+                   <label for="orate3">Control</label>
+                   
+                   
+                   
+               </fieldset>
+           
+               <fieldset>
+                   <legend>Where events are you interested in?</legend>
+                   <input type="checkbox" name="chk1" id="cb1" value="1" />
+                   <label for="cb1">Constructed</label><br />
+                   <input type="checkbox" name="chk2" id="cb2" value="2" />
+                   <label for="cb2">Limited</label><br />
+                   <input type="checkbox" name="chk3" id="cb3" value="3" />
+                   <label for="cb3">Cube</label><br />
+                   <input type="checkbox" name="chk4" id="cb4" value="4" />
+                   <label for="cb4">Un-sets</label>
+               </fieldset>
+           
+               <label id="lsug" for="tsug">Comments/Concerns*:</label><br />
+               <textarea name="suggest" id="tsug" rows="5" cols="60" placeholder="Enter comments here" required> </textarea> <br />
+           
+               <div class="buttonRow">
+                  
+                   <input type="submit" value="Submit" button class="btn"></button>&nbsp;&nbsp;
+                   
+                   <input type="reset" value="Reset" button class="btn"></button>
+                   
+               </div>
+           </form>
+       
+      </main>
+      <footer>
+         <p>Copyright 2022 by Eric Musacchio</p>
+      </footer>
+    </div>
+   </body>
+</html>
